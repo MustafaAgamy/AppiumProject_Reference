@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Test Suite">
+    <listeners>
+        <listener class-name="Utils.Listeners"/>  <!-- the directory of the listeners class in the project-->
+    </listeners>
+    <parameter name="platform" value="Android"></parameter>
+    <parameter name="appPath" value="/src/main/resources/Apps/ApiDemos-debug.apk"></parameter>
+    <test name="Android Tests">
+        <classes>
+            <class name="AndroidTests.NormalClickTest">
+            </class>
+<!--            <class name="AndroidTests.ScrollingTest">-->
+<!--            </class>-->
+<!--            <class name="AndroidTests.DragNDropTest">-->
+<!--            </class>-->
+<!--            <class name="AndroidTests.HoverTest">-->
+<!--            </class>-->
+<!--            <class name="AndroidTests.AutoCompleteTest">-->
+<!--            </class>-->
+<!--            <class name="AndroidTests.NavigateTest">-->
+<!--            </class>-->
+<!--            <class name="AndroidTests.ChangeWiFiNameTest">-->
+<!--            </class>-->
+<!--            <class name="AndroidTests.TabsTest">-->
+<!--            </class>-->
+<!--            <class name="AndroidTests.SwipeTest">-->
+<!--            </class>-->
+<!--            <class name="AndroidTests.AppActivityTest">-->
+<!--            </class>-->
+<!--            <class name="AndroidTests.RotationTest">-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
